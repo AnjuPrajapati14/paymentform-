@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+/* imgs human.png{
+    object-position: right;
+    height: 100vh;
+    width: 200px;
+} */
+
+
+
+.sidebar{
+padding-bottom: 10px;
+background-color: pink;
+width: 674px;
+height: 120vh;
+font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+.sidebar nav{
+    padding: 25px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+padding: 30px;
+
+}
+.main{
+    background-color: aqua;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: burlywood;
+    height: 95vh;
+    width: 80vw;
+    margin-left: 68px;
+    margin-right: 70px;
+    margin-top: 130px;
+    justify-content: space-around;
+    text-align-last: right;
+    
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+justify-content: center;
+text-align: right;
+}
+
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 40px;
+font-weight:normal ;
+font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.buttons button{
+padding: 10px;
+border-radius: 19px;
+background-color: cadetblue;
+font-weight: normal;
+font-size: 22px;
+margin-top: 15px;
+}
+.buttons{
+    align-items: baseline;
+    margin-top: 30px;
+}
+.moreabout{
+font-style: oblique;
+font-size: 20px;
+text-align: right;
+}
+.pic1{
+     image-orientation: from-image;
+     border-image: 9px;
+     border-color: aquamarine;
+}
+.pic2{
+    image-orientation: from-image;
+    border-image: 9px;
+    border-color: aquamarine;
+}
